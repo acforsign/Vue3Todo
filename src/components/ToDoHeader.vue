@@ -6,7 +6,8 @@
                 <h1>vue to do </h1>
             </div>
             <div class="nav-routes">
-                <router-link ></router-link>
+                <RouterLink  to="/"> Home</RouterLink>
+                <RouterLink  to="/"> About</RouterLink>
             </div>
         </nav>
     </header>
@@ -14,7 +15,7 @@
 
 <script setup>
 
-import {RouterLink} from 'vue-routrer';
+import {RouterLink} from 'vue-router';
 
 </script>
 
